@@ -158,7 +158,7 @@ Feel free to fork this project and use it as a template for your own portfolio!
 
 - LinkedIn: [Sebastian Toro](https://www.linkedin.com/in/sebastian-toro-urrego/)
 - GitHub: [@sebastiantoro06](https://github.com/sebastiantoro06)
-- Email: your-email@example.com
+- Email: sebastiantorourrego@gmail.com
 
 ---
 
