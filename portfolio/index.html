@@ -1,165 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+    <title>Sebastian Toro - Web developer</title>
     <link rel="stylesheet" href="styles.css" />
-    <title>Sebastian Toro - Portfolio</title>
-  </head>
-  <body>
+</head>
+<body>
     <nav>
-      <div class="logo">
-        <img src="assets/logo.jpg" />
-        <a href="#">Sebastian Toro</a>
-      </div>
-      <div class="nav-links">
-        <a href="#">Docs</a>
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-      </div>
-      <button><i class="ri-github-fill"></i>My Projects</button>
+        <div class="logo">
+            <a href="#">Sebastian Toro</a>
+        </div>
+        <div class="nav-links">
+            <a href="#about">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="https://github.com/sebastiantoro06" target="_blank">
+            <button><i class="ri-github-fill"></i>GitHub</button>
+        </a>
     </nav>
 
     <div class="hero">
-      <div class="left-section">
-        <div class="top">
-          <h2>Web Developer</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-            provident ad facere! Minus, laboriosam. Provident, ullam. Molestiae,
-            nisi cumque! Similique eius iusto ipsum! Aut quasi magni ab impedit,
-            eveniet dicta.
-          </p>
-          <div class="buttons">
-            <button class="docs">
-              Hire me <i class="ri-arrow-right-line"></i>
-            </button>
-            <button
-              onclick="window.open('https://github.com/sebastiantoro06', '_blank')"
-              F
-              class="git"
-            >
-              <i class="ri-github-fill"></i>My Github
-            </button>
-          </div>
+        <div class="left-section">
+            <div class="top">
+                <h2>Full Stack Developer</h2>
+                <p>I create modern and scalable web applications with current technologies. I transform ideas into innovative digital solutions that deliver impact.</p>
+                <div class="buttons">
+                    <button class="docs">Hire Me <i class="ri-arrow-right-line"></i></button>
+                    <a href="https://github.com/sebastiantoro06" target="_blank">
+                        <button class="git"><i class="ri-github-fill"></i>View Repository</button>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="p">Follow me:</div>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/sebastian-toro-urrego/" target="_blank">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="bottom">
-          <div class="p">Other Socials:</div>
-          <div class="icons">
-            <a
-              href="https://www.linkedin.com/in/sebastian-toro-urrego/"
-              target="_blank"
-            >
-              <i class="ri-linkedin-box-line"></i>
-            </a>
-
-            <i class="ri-instagram-line"></i>
-          </div>
-        </div>
-      </div>
-      <img src="assets/hero-section.png" alt="hero" />
+        <img src="assets/hero-section.png" alt="hero" />
     </div>
 
-    <div class="about">
-      <p>About Web development</p>
-      <h2>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
-        provident praesentium expedita aspernatur sint inventore pariatur
-        accusamus autem, omnis nostrum ad quos. Commodi nulla dolorem adipisci
-        recusandae repellat, libero laboriosam.
-      </h2>
-      <div class="items">
-        <div class="item">
-          <div class="inner">
-            <img src="assets/project2.jpg" alt="" />
-            <a href="">Front-end Development</a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              provident ad facere! Minus, laboriosam. Provident, ullam.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="inner">
-            <img src="assets/project3.jpg" alt="" />
-            <a href="">Back-end Development</a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              provident ad facere! Minus, laboriosam. Provident, ullam.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="inner">
-            <img src="assets/project4.jpg" alt="" />
-            <a href="">Full stack integrations</a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              provident ad facere! Minus, laboriosam. Provident, ullam.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="projects">
-      <div class="inner">
-        <p class="debug"><i class="ri-command-line"></i>Troubleshoot & Debug</p>
-        <h2>Projects Showcase</h2>
-        <p class="info">Have a look at some of my projects</p>
-        <button>Explore my Projects <i class="ri-arrow-right-line"></i></button>
+    <div class="about" id="about">
+        <p>Services</p>
+        <h2>Specialized in modern full stack solutions</h2>
         <div class="items">
-          <div class="item">
-            <i class="ri-shopping-bag-3-line"></i>
-            <a href="">E-commerce</a>
-            <p>e-commerce platform with secure payments</p>
-          </div>
-          <div class="item">
-            <i class="ri-id-card-line"></i>
-            <a href="">Portfolio Website</a>
-            <p>
-              Design and built a personal portfolio website to showcase my
-              projects and skills
-            </p>
-          </div>
-          <div class="item">
-            <i class="ri-apps-line"></i>
-            <a href="">Social Media apps</a>
-            <p>e-commerce platform with secure payments</p>
-          </div>
-          <div class="item">
-            <i class="ri-news-line"></i>
-            <a href="">Blog platform</a>
-            <p>Built a dynamic blog platform</p>
-          </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/project2.jpg" alt="Frontend" />
+                    <a href="">Frontend Development</a>
+                    <p>Responsive and attractive interfaces with React, Vue and modern technologies. Optimized user experience and maximum performance.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/project3.jpg" alt="Backend" />
+                    <a href="">Backend Development</a>
+                    <p>Robust APIs with Node.js and Express. Optimized databases and scalable architectures for enterprise applications.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/project4.jpg" alt="Full Stack" />
+                    <a href="">Full Stack Integration</a>
+                    <p>Complete solutions from frontend to infrastructure. Production deployment and continuous maintenance.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <div class="contact">
-      <h2>Interested in working together?</h2>
-      <div class="items">
-        <div class="item">
-          <a href="">Schedule a call</a>
-          <p>Lets discuss projects ideas and how I can help you</p>
-          <button>Schedule a call</button>
+    <div class="projects" id="projects">
+        <div class="inner">
+            <p class="debug"><i class="ri-code-2-line"></i>Portfolio</p>
+            <h2>Featured Projects</h2>
+            <p class="info">Explore some of my most relevant projects developed with modern technologies</p>
+            <a href="#"><button>View all projects <i class="ri-arrow-right-line"></i></button></a>
+            <div class="items">
+                <div class="item">
+                    <i class="ri-shopping-bag-4-line"></i>
+                    <a href="">Advanced E-Commerce</a>
+                    <p>Shopping platform with dynamic cart, secure payment gateway and integrated admin panel.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-bar-chart-2-line"></i>
+                    <a href="">Analytics Dashboard</a>
+                    <p>Control panel with interactive charts, real-time data analysis and customizable reports.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-chat-3-line"></i>
+                    <a href="">Messaging App</a>
+                    <p>Real-time chat application with notifications, secure authentication and synchronized database.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-newspaper-line"></i>
+                    <a href="">Dynamic Blog</a>
+                    <p>Blog platform with WYSIWYG editor, categories, tags and integrated comment system.</p>
+                </div>
+            </div>
         </div>
-          <div class="item">
-          <a href="">Explore my work</a>
-          <p>View my portfolio to see the kind of work I do for you</p>
-          <button>View my work</button>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Ready to collaborate?</h2>
+        <div class="items">
+            <div class="item">
+                <a href="">Schedule a call</a>
+                <p>Let's discuss your project and how I can help you achieve your digital goals.</p>
+                <button>Schedule Call</button>
+            </div>
+            <div class="item">
+                <a href="">Explore my work</a>
+                <p>Check out my complete portfolio and discover the type of work I do for my clients.</p>
+                <button>View Portfolio</button>
+            </div>
         </div>
-      </div>
     </div>
 
     <footer>
-      <a href="">Terms of service</a>
-      <a href="">Privacy Policy</a>
-      <p> © Sebastian Toro Github Project</p>
+        <a href="">Terms of Service</a>
+        <a href="">Privacy Policy</a>
+        <p>© 2024 Sebastian Toro - Full Stack Developer</p>
     </footer>
-  </body>
+</body>
 </html>
