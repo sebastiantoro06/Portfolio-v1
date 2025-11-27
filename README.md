@@ -19,8 +19,8 @@ A modern, responsive, and elegant portfolio website showcasing full stack develo
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Hero](./screenshots/Hero.png)
-![Desktop Projects](./screenshots/Projects.png)
+![Desktop Hero](https://raw.githubusercontent.com/sebastiantoro06/Portfolio-v1/refs/heads/main/portfolio/screenshots/Hero.png)
+![Desktop Projects](https://raw.githubusercontent.com/sebastiantoro06/Portfolio-v1/refs/heads/main/portfolio/screenshots/Projects%20section.png)
 
 
 ## 🛠️ Tech Stack
