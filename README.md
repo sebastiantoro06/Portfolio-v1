@@ -162,4 +162,3 @@ Feel free to fork this project and use it as a template for your own portfolio!
 
 ---
 
-**Made with ❤️ by Sebastian Toro**
