@@ -14,13 +14,13 @@ A modern, responsive, and elegant portfolio website showcasing full stack develo
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](#) *(https://sebastiantoro06.github.io/Portfolio-v1)*
+[View Live Portfolio](https://sebastiantoro06.github.io/Portfolio-v1) 
 
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Hero](https://raw.githubusercontent.com/sebastiantoro06/Portfolio-v1/refs/heads/main/portfolio/screenshots/Hero.png)
-![Desktop Projects](https://raw.githubusercontent.com/sebastiantoro06/Portfolio-v1/refs/heads/main/portfolio/screenshots/Projects.png)
+![Desktop Hero](https://raw.githubusercontent.com/sebastiantoro06/Portfolio-v1/refs/heads/main/screenshots/Hero.png)
+![Desktop Projects](https://raw.githubusercontent.com/sebastiantoro06/Portfolio-v1/refs/heads/main/screenshots/Projects.png)
 
 
 ## 🛠️ Tech Stack
