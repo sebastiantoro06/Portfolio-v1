@@ -65,12 +65,10 @@ nav .logo {
   font-size: 20px;
 }
 
-nav .logo img {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  object-fit: cover;
+nav .logo:hover{
+  color: #00d4ff;
 }
+
 
 nav .nav-links {
   display: flex;
